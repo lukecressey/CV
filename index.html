@@ -5,74 +5,87 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Luke's Personal Site</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
 
     <body>
-        <table cellspacing="20">
-            <tr>
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <td width="20%"><img src="Images/Luke.jpg" width="190%" height="10%" alt="Luke Profile Picture"></td>
-                <td><h1> Luke Cressey </h1>   
+    <header>
+
+        <div class="container">
+            <img src="Images/Luke.jpg" width="100%" height="100%" alt="Luke Profile Picture">
+            <div class="aboutme">
+                
+                <h1> Luke Cressey </h1>   
                 <p><em>Product Management Marketing Intern at <strong><a href="https://www.hpe.com/us/en/home.html">HPE</a></strong> </em></p>
                 <p>I am a Managment and Marketing student at the University of West England, currently on a 13 month Placement at Hewlett Packard Enterprise. 
-                <br>
-                <p>I love to play sports such as football and tennis and I enjoy staying active in the gym and by going on runs.</p></td>
+                    <br>
+                    <p>I love to play sports such as football and tennis and I enjoy staying active in the gym and by going on runs.</p>
+                </div>
+            </div>
+        </header>
+            <hr>
+            <section id="education">
+        <h3>Schools I have attended</h3>
+        <ul>
+            <li><a href="https://www.ursuline.kent.sch.uk/">Ursuline College</a></li>
+            <li><a href="https://www.tavistockcollege.org/">Tavistock College</a></li>
+            <li><a href="https://www.tavistockcollege.org/">Tavistock Sixth Form</a></li>
+            <li><a href="https://www.uwe.ac.uk/">Business School at the University of West England</a></li>
+        </ul>
+    </section>
+    <hr>
+    <section id="experience">
+        <h3>Work Experience</h3>
+        <table cellspacing="20">
+            <thead>
+                <tr>
+                    <th>Dates</th>
+                    <th>Work</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>2023-2024</td>
+                <td>Product Management and Marketing Intern at HPE</td>
+            </tr>
+            <tr>
+                <td>2020-2021</td>
+                <td>Project Administration at Beacon Communications</td>
             </tr>
         </table>
-        <hr>
-    <h3>Schools I have attended</h3>
-    <ul>
-        <li><a href="https://www.ursuline.kent.sch.uk/">Ursuline College</a></li>
-        <li><a href="https://www.tavistockcollege.org/">Tavistock College</a></li>
-        <li><a href="https://www.tavistockcollege.org/">Tavistock Sixth Form</a></li>
-        <li><a href="https://www.uwe.ac.uk/">Business School at the University of West England</a></li>
-    </ul>
+    </section>
     <hr>
-    <h3>Work Experience</h3>
-    <table cellspacing="20">
-        <thead>
+    <section id="skills">
+        <h3>Skills</h3>
+        <Table cellspacing="20">
+            <thead>
+                <th>Skill</th>
+                <th>Rating</th>
+            </thead>
             <tr>
-                <th>Dates</th>
-                <th>Work</th>
-            </tr>
-        </thead>
-        <tr>
-            <td>2023-2024</td>
-            <td>Product Management and Marketing Intern at HPE</td>
-        </tr>
-        <tr>
-            <td>2020-2021</td>
-            <td>Project Administration at Beacon Communications</td>
-        </tr>
-    </table>
-    <hr>
-    <h3>Skills</h3>
-    <Table cellspacing="20">
-        <thead>
-            <th>Skill</th>
-            <th>Rating</th>
-        </thead>
-        <tr>
-            <td>Microsoft Excel</td>
-            <td>⭐⭐⭐⭐</td>
-        <tr> 
-            <td>Presentation Skills</td>
-            <td>⭐⭐⭐⭐⭐</td>
-        <tr>
-            <td>Event Planning</td>
-            <td>⭐⭐⭐⭐</td>
-        <tr>
-            <td>Financial Reporting</td>
+                <td>Microsoft Excel</td>
+                <td>⭐⭐⭐⭐</td>
+                <tr> 
+                    <td>Presentation Skills</td>
+                    <td>⭐⭐⭐⭐⭐</td>
+                    <tr>
+                        <td>Event Planning</td>
+                        <td>⭐⭐⭐⭐</td>
+                        <tr>
+                            <td>Financial Reporting</td>
             <td>⭐⭐⭐</td>
         <tr>
             <td>Marketing Planning Practices</td>
             <td>⭐⭐⭐</td>
         <tr>
     </Table>
+    </section>
+
     <hr>
-    <h3>Other Information</h3>
-    <a href="Hobbies.HTML">My Hobbies</a>
-    <br>
-    <a href="ContactDetails.html">Contact Details</a>
+    <section>
+        <h3>Other Information</h3>
+        <a href="Hobbies.HTML">My Hobbies</a>
+        <br>
+        <a href="ContactDetails.html">Contact Details</a>
+    </section>
     </body>
 </html> 
